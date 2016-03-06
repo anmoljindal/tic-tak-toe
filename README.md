@@ -1,2 +1,2 @@
 # tic-tak-toe
-tic tak toe game
+the traditional tic tak toe game
