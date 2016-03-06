@@ -1,2 +1,3 @@
 # tic-tak-toe
-tic tak toe game
+the traditional tic tak toe game.
+to be coded in c++.
