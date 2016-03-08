@@ -20,15 +20,12 @@ int main()
            turns++;
 
     }
-    for(int i=0;i<3;i++)
+    for(int j=0;j<3;j++)
     {
-      for(int j=0;j<3;j++)
-       {
-         if(board[i][j]==board[i][j+1]&&board[i][j]==board[i][j+1])
-           (board[i][j]=='x')?xcount++:ocount++;
-         if(board[i][j]==board[i+1][j]&&board[i][j]==board[i+2][j])
-           (board[i][j]=='x')?xcount++:ocount++;
-       }
+        if(board[i][0]==board[i][1]&&board[i][0]==board[i][2])
+           (board[i][0]=='x')?xcount++:ocount++;
+        if(board[0][j]==board[1][j]&&board[0][j]==board[2][j])
+           (board[0][j]=='x')?xcount++:ocount++;
     }
     if(board[0][0]==board[1][1]&&board[1][1]==board[2][2])
       (board[0][0]=='x')?xcount++:ocount++;
